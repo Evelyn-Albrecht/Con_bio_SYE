@@ -1,0 +1,24 @@
+---
+title: "Initial exploration"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library("here")
+```
+
+```{r}
+snakes <- read.csv(here("Data","CH_survey_March_26.csv"))
+```
+
+Q14- biodiversity loss effects me
+
+Q5  - i like snakes
+
+Q16 -
+
+```{r}
+ggplot(snakes, aes())
+```
